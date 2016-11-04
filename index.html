@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="" ng-app="donate">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Donation</title>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- <meta property="og:description" content="Yes...I donatied" /> -->
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:300i|Roboto" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+
+	<body>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-xs-12 col-sm-12 col-md-offset-3 text-center" style="margin-top: 20px;">
+					<div class="wrapper">
+					<h3>$<strong class="dollar1">1000</strong> still needed for this project</h3>
+					<i class="fa fa-caret-down pull-right" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-xs-12 col-sm-12">
+					<div class="wrapper1">
+						<div class="colmd10 progress">
+    						<div class="progress-bar active" role="progressbar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" >
+				<div class="col-md-6 col-xs-12 col-sm-12 col-md-offset-3">
+					<div class="wrapper2">
+						<p><strong class="only3">Only 3 days left </strong><span> to found this project.</span></p>
+						<p>join the 42 other donors who have already supported this project.Every dollar helps</p>
+
+						<div class="row">
+							<div class="col-md-6 col-xs-12 col-sm-6">
+								<input type="text" placeholder="$50" id="inputValue" class="inputValue">
+							</div>
+							<div class="col-md-6 col-xs-12 col-sm-6">
+								<button class="btn btn-default giveNow" id="">Give Now</button>
+							</div>
+						</div>		
+						<p class="dollar">Why give $50?</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="margin-top: 20px;">
+				<div class="col-md-6 col-xs-12 col-sm-12 col-md-offset-3">
+					<div class="wrapper3">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-6">
+								<button class="btn btn-default pull-left saveforlater" data-toggle="modal" data-target="#myModal">Save for later</button>
+							</div>
+							<div class=" col-md-6 col-sm-6 col-xs-6">
+								<button class="btn btn-default pull-right tellUrFnds">Tell your friends</button>
+								<div class="popover fade bottom in" role="tooltip" id="popover900948" style="top: 64px; left: 89.7578px; "><div class="arrow" style="left: 50%;"></div><h3 class="popover-title" style="display: none;"></h3><div class="popover-content"><a href="#" class="btn btn-medium font-bold" socialshare="" socialshare-provider="facebook" socialshare-type="feed" socialshare-via="1216283981763650" socialshare-text="yes!!....I Donated" socialshare-url="http://donation.com" socialshare-popup-height="300" socialshare-popup-width="400" socialshare-trigger="click"> <img src="https://simplesharebuttons.com/images/somacro/facebook.png" class="img-responsive" alt="facebook"> </a> <a href="https://twitter.com/share?url=https://&amp;text=Yes!!...%20I%20Donated" target="_blank"><img src="https://simplesharebuttons.com/images/somacro/twitter.png" class="img-responsive" alt="Twitter"/></a></div></div>
+								<!-- <button class="btn btn-default pull-right tellUrFnds">Tell your friends</button> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			 <div class="modal fade" id="myModal" role="dialog">
+			    <div class="modal-dialog">
+			      <div class="modal-content">
+			        <div class="modal-header">
+				        <div class="modal-body text-center">
+				        	 <button type="button" class="close" data-dismiss="modal">&times;</button>
+				          	<h3>Saved</h3>
+				        </div>
+			        </div>
+			        
+		     </div>
+		 </div>
+		</div>
+			
+		</div>
+
+
+		 <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
+		 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.4/angular.min.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+	    <script type="text/javascript" src="js/main.js"></script> 
+
+	    <script type="text/javascript" src="js/angular-socialShare.min.js"></script>
+     	<script type="text/javascript" src="js/min/angular_app.js"></script>
+		
+
+     <script>
+		$(document).mouseup(function (e)
+			{
+			    var container = $(".popover");
+
+			    if (!container.is(e.target) // if the target of the click isn't the container...
+			        && container.has(e.target).length === 0) // ... nor a descendant of the container
+			    {
+			        container.hide();
+			    }
+			});
+	</script>
+
+	</body>
+</html>
